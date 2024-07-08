@@ -134,6 +134,25 @@ The following [subprojects][subproject-definition] are owned by sig-network:
 [subproject-definition]: https://github.com/kubernetes/community/blob/master/governance.md#subprojects
 [working-group-definition]: https://github.com/kubernetes/community/blob/master/governance.md#working-groups
 <!-- BEGIN CUSTOM CONTENT -->
+
+### Responsibilities of Subproject Leads
+
+Just like the [SIG Network Chair's](https://github.com/kubernetes/community/blob/master/sig-network/role-sig-chair.md#whats-expected) expectation is to "run the show" of the whole SIG, the Subproject Lead's expectation is to "run the show" for that subproject. This includes:
+
+- **Transparent Project Planning and Maintainence:**
+  - Leads must provide transparent view into their historical and future project plans (eg; using GitHub project boards)
+  - Leads must communicate the project plans to the wider community by linking it to the project's README pages.
+  - Project must be kept in good health by the lead through regular issue triaging and PR reviews (delegating this to other members in the community is good!)
+
+- **Regular Project Updates**
+  - Leads must report on project's status, significant releases/events, interesting developments to the wider SIG-Network community (eg; in the SIG-Network meetings or sig-network slack channel or mailing-list).
+
+- **Communication Channels**
+  - Leads must manage open communication channels for the project's community, such as Kubernetes Slack channels and Zoom meetings.
+  - Leads must ensure project's documentation is up-to-date and easy for new contributors joining the project (delegating this to other members in the communtiy is good!)
+
+Note: The above points (except maintainence aspect) are not applicable to projects in maintainence mode.
+
 ## Areas of Responsibility
 
 SIG Network is responsible for the following Kubernetes subsystems:
