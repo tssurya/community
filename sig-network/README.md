@@ -135,23 +135,27 @@ The following [subprojects][subproject-definition] are owned by sig-network:
 [working-group-definition]: https://github.com/kubernetes/community/blob/master/governance.md#working-groups
 <!-- BEGIN CUSTOM CONTENT -->
 
-### Responsibilities of Subproject Leads
+### Subproject Leads
 
-Just like the [SIG Network Chair's](https://github.com/kubernetes/community/blob/master/sig-network/role-sig-chair.md#whats-expected) expectation is to "run the show" of the whole SIG, the Subproject Lead's expectation is to "run the show" for that subproject. This includes:
+SIG network provides some additional responsibilities for subproject leads beyond was in covered in the [standard subproject definition][subprojects].
+Most of these additional responsibilities relate to communication about their projects within SIG Network, and to the greater community:
 
-- **Transparent Project Planning and Maintainence:**
-  - Leads must provide transparent view into their historical and future project plans (eg; using GitHub project boards)
-  - Leads must communicate the project plans to the wider community by linking it to the project's README pages.
-  - Project must be kept in good health by the lead through regular issue triaging and PR reviews (delegating this to other members in the community is good!)
+- **Transparent Project Planning, Maintainence and Communication:**
+  - Subproject Leads **MUST** provide transparent view into their historical and future project plans (eg; using GitHub project boards, KEPs, or custom enhancement proposals (see [GEPs]/[NPEPs])).
+  - Subproject leads **MUST** create, maintain and be present in a public [Kubernetes Slack] channel with the naming `#sig-network-<subproject>`.
+  - Subproject leads **SHOULD** create and maintain a regular public [Zoom] sync on the [SIG Network Calendar].
 
 - **Regular Project Updates**
-  - Leads must report on project's status, significant releases/events, interesting developments to the wider SIG-Network community (eg; in the SIG-Network meetings or sig-network slack channel or mailing-list).
+  - Subproject leads **MUST** report on project's status, significant releases/events, interesting developments to the wider SIG-Network community via the [SIG Network Mailing List] on a quarterly basis (or as needed).
+  - Subproject leads **SHOULD** report on project status in the general SIG Network community meetings (in addition to mailing list updates).
 
-- **Communication Channels**
-  - Leads must manage open communication channels for the project's community, such as Kubernetes Slack channels and Zoom meetings.
-  - Leads must ensure project's documentation is up-to-date and easy for new contributors joining the project (delegating this to other members in the communtiy is good!)
-
-Note: The above points (except maintainence aspect) are not applicable to projects in maintainence mode.
+[subprojects]: https://github.com/kubernetes/community/blob/master/governance.md#subprojects
+[GEPs]: https://github.com/kubernetes-sigs/gateway-api/blob/main/geps/overview.md
+[NPEPs]: https://github.com/kubernetes-sigs/network-policy-api/blob/main/npeps
+[Kubernetes Slack]: https://kubernetes.slack.com
+[Zoom]: https://zoom.us
+[SIG Network Calendar]: https://github.com/kubernetes/community/tree/master/sig-network#meetings
+[SIG Network Mailing List]: https://groups.google.com/g/kubernetes-sig-network
 
 ## Areas of Responsibility
 
